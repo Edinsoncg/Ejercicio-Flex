@@ -1,0 +1,122 @@
+body{
+    background-color: #F495E6;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedorA{
+    width: 60%;
+    height: 100%;
+    margin-right: 2vh;
+}
+
+.contenedorRow{
+    display: flex;
+    width: 100%;
+    height: 49%;
+    flex-direction: column;
+    row-gap: 2vh;
+    margin-bottom: 2vh;
+}
+
+.rectangulo{
+    display: flex;
+    flex: 1;
+}
+
+.contenedorColumn{
+    display: flex;
+    width: 100%;
+    height: 49%;
+    flex-direction: row;
+    column-gap: 2vh;
+}
+
+.contenedorB{
+    width: 60%;
+    height: 100%;
+    margin-right: 2vh;
+}
+
+.cuadrados{
+    display: flex;
+    flex-wrap: wrap;
+    height: 23.51%;
+    gap: 2vh;
+    margin-bottom: 2vh;
+}
+
+.cuadrados-1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 23.51%;
+    gap: 2vh;
+    column-gap: 2vh;
+    margin-bottom: 2vh;
+}
+
+.cuadrados-2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 49%;
+    gap: 2vh;
+}
+
+.cuadrado{
+    display: flex;
+    flex-grow: 1;
+    width: 21.2%; 
+    background: linear-gradient(to top left, #F576C3, #FE4B8F);  
+}
+
+.contenedorC{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    height: 100%;
+    margin-right: 2vh;
+    gap: 2vh;
+}
+
+.cuadrado-x2{
+    display: flex;
+    height: 23.5%;
+}
+
+.rectangulo-2{
+    display: flex;
+    flex-grow: 1;
+}
+
+.contenedorD{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    height: 100%;
+    margin-right: 2vh;
+    gap: 2vh;
+}
+
+.contenedorE{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 29%;
+    height: 100%;
+    gap: 2vh;
+}
+
+.rectangulo-3{
+    display: flex;
+    flex-grow: 1;
+}
+
+.degradado{
+    background: linear-gradient(to top right,#F191E1, #FE4B8F);
+}
